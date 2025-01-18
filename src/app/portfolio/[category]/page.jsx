@@ -1,8 +1,10 @@
 import React from 'react'
-
-const Category = () => {
+import styles from './page.module.css'
+const Category = ({params}) => {
   return (
-    <div>Category</div>
+    <div className={styles.container}>
+      //Todo: will build this component later... after writing the backend
+    </div>
   )
 }
 
